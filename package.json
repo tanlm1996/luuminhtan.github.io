@@ -1,0 +1,28 @@
+{
+  "name": "varadbhogayata.github.io",
+  "version": "1.0.0",
+  "description": "> A clean, beautiful, responsive portfolio template for Software Developers!",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varadbhogayata/varadbhogayata.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varadbhogayata/varadbhogayata.github.io/issues"
+  },
+  "homepage": "https://tanlm.github.io",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
